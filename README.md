@@ -1,10 +1,14 @@
-# Smammy Task-spooler-as-tsp
+# Task Spooler installed as `tsp` (instead of `ts`)
 
-## How do I install these formulae?
+## Overview
 
-`brew install smammy/task-spooler-as-tsp/<formula>`
+The core `task-spooler` formula installs a `ts` binary, which conflicts with the `ts` ("timestamp") binary in the `moreutils` formula. This formula renames Task Spooler's `ts` to `tsp`, like Debian does.
 
-Or `brew tap smammy/task-spooler-as-tsp` and then `brew install <formula>`.
+## Installation
+
+`brew install smammy/task-spooler-as-tsp/task-spooler-as-tsp`
+
+Or `brew tap smammy/task-spooler-as-tsp` and then `brew install task-spooler-as-tsp`.
 
 ## Documentation
 
