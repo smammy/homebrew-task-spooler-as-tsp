@@ -1,4 +1,4 @@
-class TaskSpoolerAsTsp < Formula
+class Tsp < Formula
   desc "Batch system to run tasks one after another (installed as `tsp`)"
   homepage "https://vicerveza.homeunix.net/~viric/soft/ts/"
   url "https://vicerveza.homeunix.net/~viric/soft/ts/ts-1.0.2.tar.gz"
