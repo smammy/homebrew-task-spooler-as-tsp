@@ -1,7 +1,8 @@
 class Tsp < Formula
   desc "Batch system to run tasks one after another (installed as `tsp`)"
   homepage "https://vicerveza.homeunix.net/~viric/soft/ts/"
-  url "https://vicerveza.homeunix.net/~viric/soft/ts/ts-1.0.2.tar.gz"
+  #url "https://vicerveza.homeunix.net/~viric/soft/ts/ts-1.0.2.tar.gz"
+  url "http://distfiles.macports.org/macports/distfiles/ts/ts-1.0.2.tar.gz"
   sha256 "f73452aed80e2f9a7764883e9353aa7f40e65d3c199ad1f3be60fd58b58eafec"
   license "GPL-2.0-only"
 
